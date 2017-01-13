@@ -6,15 +6,20 @@ return width * height;
 function numOne(a) {
   return (a * a) / a;
 }
+console.log(numOne(10));
 function numTwo(b) {
-  return (b + b) * (b * b) / b;
+  return b = (b + b) * (b * b) / b;
 }
+console.log(numTwo(2));
 function numThree(c) {
   return (c % (c * c * c) + (c + c + c));
 }
-function combine(numOne, NumTwo, numThree) {
-  return numOne + NumTwo + numThree;
-}
+console.log(numThree(25));
+//function combine(numOne, numTwo, numThree) {
+//  return numOne + numTwo + numThree;
+//}
+var combine = numOne, numTwo, numThree;
+console.log(combine);
 /*
 var msg = numOne;
 var func = function() {

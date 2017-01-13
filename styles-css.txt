@@ -1,3 +1,57 @@
+/*Imported from Resume*/
+/*Default-Startup CSS*/
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+/*General*/
+body {
+    background: #ffffff url(http://philcurtis.me/images/paper_3_@2X.png) top left repeat;/*color image position repeat*/
+    margin: 25px 10px 25px 10px;
+    padding: 2px 2px 2px 2px;
+    font-family: helvetica, Arial, "Times New Roman", sans-serif;
+}
+    h1 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Arial, Verdana, sans-serif;;
+    text-decoration: underline;
+    letter-spacing: 20px;
+    word-spacing: 25px;
+    }
+h2 {
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Verdana, Arial, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-style: italic;
+    }
+p {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UNUSED:
+=================================================================================================
 ul {
     list-style: none;
 }
@@ -47,25 +101,8 @@ visited {
         height: 10%;
         float: right;
     }
-    h1 {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    font-size: 60px;
-    font-weight: bolder;
-    font-family: Arial, Verdana, sans-serif;;
-    text-decoration: underline;
-    letter-spacing: 20px;
-    word-spacing: 25px;
-    }
-    h4 {
-    padding-top: 2px;
-    font-size: 20px;
-    font-weight: normal;
-    font-family: Verdana, Arial, sans-serif;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    font-style: italic;
-    }
+
+    
     .header > nav {
         display: block;
         font-family: monospace, serif;
